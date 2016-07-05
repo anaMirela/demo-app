@@ -19,6 +19,6 @@ public class MavenJettyInt extends HttpServlet{
 			HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		response.setStatus(HttpServletResponse.SC_OK);
-		response.getWriter().println("<h1>Hello Servlet from my app</h1>");
+		response.getWriter().println("<h1>Hello Mada</h1>");
 	}
 }
